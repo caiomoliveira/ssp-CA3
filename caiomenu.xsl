@@ -18,8 +18,8 @@
                 </tr>
                 <xsl:for-each select="entry">
                     <tr id="{position()}">
-                        <xsl:attribute name="vegetarian">
-                            <xsl:value-of select="boolean(@vegetarian)" />
+                        <xsl:attribute name="Special">
+                            <xsl:value-of select="boolean(@Special)" />
                         </xsl:attribute>
                         <td align="center">
                             <input name="item0" type="checkbox" />
