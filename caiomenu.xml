@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+  <section name="Beer">
+    <entry>
+      <item>Guinness</item>
+      <price>6.50</price>
+    </entry>
+    <entry>
+      <item>Hop House</item>
+      <price>6.20</price>
+    </entry>
+    <entry Special="true">
+      <item>Edinger</item>
+      <price>6.50</price>
+    </entry>
+  </section>
+  <section name="Gin">
+    <entry>
+      <item>Gordon's</item>
+      <price>7.50</price>
+    </entry>
+    <entry>
+      <item>GunPowder</item>
+      <price>7.20</price>
+    </entry>
+    <entry Special="true">
+      <item>PinkGordon's</item>
+      <price>7.00</price>
+    </entry>
+  </section>
+  <section name="Whiskey">
+    <entry>
+      <item>Jameson</item>
+      <price>8.50</price>
+    </entry>
+    <entry>
+      <item>JackDaniels</item>
+      <price>8.00</price>
+    </entry>
+    <entry Special="true">
+      <item>Power</item>
+      <price>9.00</price>
+    </entry>
+  </section>
+  <section name="Vodka">
+    <entry>
+      <item>Absolut</item>
+      <price>7.50</price>
+    </entry>
+    <entry>
+      <item>Smirnoff</item>
+      <price>6.50</price>
+    </entry>
+    <entry Special="true">
+      <item>Nikita</item>
+      <price>10.00</price>
+    </entry>
+  </section>
+  <section name="Soft Drinks">
+    <entry>
+      <item>7Up</item>
+      <price>5.00</price>
+    </entry>
+    <entry>
+      <item>Coke</item>
+      <price>4.50</price>
+    </entry>
+    <entry Special="true">
+      <item>Orange Juice</item>
+      <price>4.50</price>
+    </entry>
+  </section>
+</menu>
