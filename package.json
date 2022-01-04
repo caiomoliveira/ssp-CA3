@@ -1,0 +1,19 @@
+{
+  "name": "ssp-proj",
+  "version": "0.0.1",
+  "description": "CA3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiomoliveira/ssp-CA3.git"
+  },
+  "author": "Caio Machado de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiomoliveira/ssp-CA3/issues"
+  },
+  "homepage": "https://github.com/caiomoliveira/ssp-CA3#readme"
+}
