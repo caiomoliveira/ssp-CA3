@@ -33,7 +33,7 @@ function JSONtoXML(filename, obj, cb) {
 
 
         
-router.get('/', function (req, res) {
+router.get('/get/html', function (req, res) {
         res.writeHead(200, {'Content-Type' : 'text/html'});
 
         let xml = fs.readFileSync('caiomenu.xml', 'utf8'),
