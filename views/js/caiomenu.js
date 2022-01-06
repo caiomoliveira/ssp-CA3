@@ -36,9 +36,9 @@ function highlightVegetarian(idTable, bShowVeg) {
     var oTBODY = oTable.getElementsByTagName('TBODY')[0];
     var aTRs = oTBODY.getElementsByTagName('TR');
     // walk through each of the table rows and see if it has a 
-    // "vegetarian" attribute on it.
+    // "Special" attribute on it.
     for (i = 0; i < aTRs.length; i++) {
-        if (aTRs[i].getAttribute('vegetarian') && aTRs[i].getAttribute('vegetarian') == "true") {
+        if (aTRs[i].getAttribute('Special') && aTRs[i].getAttribute('Special') == "true") {
             if (bShowVeg) {
                 aTRs[i].style.backgroundColor = "lightGreen";
             } else {
