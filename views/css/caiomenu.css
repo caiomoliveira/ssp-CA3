@@ -40,6 +40,121 @@ th {
 }
 
 .selected {
-            background-color: #dc3545;
+            background-color: #21b40e;
             color: #FFF;
 }
+
+/*------------Staff---------------*/
+
+.section-subtitle,
+.section-title {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    color: #21b40e;
+    margin-top: 3rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+    color: #21b40e;
+    margin-top: 3rem;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.about__container {
+    padding: 0 2rem;
+}
+
+.form{
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-group{
+    padding-left: 30px;
+
+}
+
+.card-btn {
+    margin-left: 50px;
+    margin-top: 30px;
+    
+
+
+}
+
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    padding: 10px;
+    width: 140%;
+
+}
+
+/*--------------FOOTER-----------------*/
+.footer__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info
+ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    
+}
+
+
+ a:hover,
+.info a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 0.813rem;;
+    color: #171f07;
+    text-align: center;
+}
+
+
+.footer__title {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 60px;
+    color: #21b40e;
+    padding-left: 50px;
+    
+}
+
+.footer__subtittle {
+    font-size: 0.938rem;
+    line-height: 60px;
+    color: #171f07;
+    padding-left: 100px;
+    
+}
+
