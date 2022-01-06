@@ -30,7 +30,7 @@ function select_row()
 	})
 };
 
-/*---------------------------------------------*/
+/*--------------------------------------------- this is the validator to the password checking! */
 checkpassword = function(validade){
     var str = document.getElementById().value;
     if(str.lenght < 8)

@@ -57,7 +57,7 @@ th {
 }
 
 img {
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
